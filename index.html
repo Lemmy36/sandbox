@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sandbox</title>
+
+    <script>
+        function tuWas() {
+            var inp = document.getElementById("input1");
+            console.log(inp.value);
+            inp.value = inp.value + "0";
+        }
+    </script>
+
+    <style>
+        #block {
+            background-color: red;
+            width: 50px;
+            height: 30px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="block">
+        Hallo
+    </div>
+
+    <br>
+
+    Eingabe: <input type="text" id="input1" name="test" value="1">
+    <button onClick="tuWas()">Ok</button>
+
+</body>
+
+</html>
