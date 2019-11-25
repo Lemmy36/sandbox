@@ -7,14 +7,14 @@
  */
 
 
- // schleife hier
-
+// schleife hier
 
 function produkt(zahl) {
     return zahl * zahl;
 }
 
-for (var i = 1; i <= 10; i++) {
-    console.log(produkt(i));
+var z = 2;
+for (var i = 0; i <= 10; i++) {
+    z = produkt(z);
+    console.log(z);
 }
-

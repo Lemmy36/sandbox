@@ -8,7 +8,7 @@
 // die Du dann benutzen kannst. 
 var fs = require('fs');
 
-fs.readdir('.', function(err, items) {
+fs.readdir('..', function(err, items) {
     for (var i=0; i<items.length; i++) {
         console.log(items[i]);
     }

@@ -7,11 +7,11 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Aufgabe2.js",
+            "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\aufgabe2.js"
+            "program": "${workspaceFolder}/aufgabe1.js"
         }
     ]
 }
