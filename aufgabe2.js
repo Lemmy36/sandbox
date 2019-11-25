@@ -17,3 +17,4 @@ fs.readdir('.', function(err, items) {
 // Jetzt kommt deine Aufgabe..
 // Liste alle Dateien, auch in den Unterverzeichnissen auf der Console aus
 // Tipp: Dafür brauchst Du Rekursion
+

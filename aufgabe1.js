@@ -10,4 +10,11 @@
  // schleife hier
 
 
- 
+function produkt(zahl) {
+    return zahl * zahl;
+}
+
+for (var i = 1; i <= 10; i++) {
+    console.log(produkt(i));
+}
+
